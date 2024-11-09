@@ -1,10 +1,5 @@
-# 2401PTDS_Regression_Project
+# 2401PTDS_Regression_Project_DavidHarrison
 
-![](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
-
-<div id="main image" align="center">
-  <img src="https://github.com/marcmarais/2401FTDS_Regression_Project/blob/main/agri_image.png" width="450" height="300" alt=""/>
-</div>
 
 ## Table of contents
 * [1. Project Overview](#project-description)
@@ -14,14 +9,16 @@
 * [5. Team Members](#team-members)
 
 ## 1. Project Overview <a class="anchor" id="project-description"></a>
-Your team of environmental consultants and data scientists are tasked by a coalition of agricultural stakeholders to analyse and predict the effect of CO2 emissions on climate change from the agri-food sector. The stakeholders include policymakers, agricultural businesses, and environmental organisations. Your project aims to understand the impact of agricultural activities on climate change and develop strategies for sustainable practices. Utilising a comprehensive dataset compiled from the Food and Agriculture Organization (FAO) and the Intergovernmental Panel on Climate Change (IPCC), you will explore various emission sources, perform regression analysis to predict temperature variations, and offer actionable insights for the stakeholders.
+Our team of consultants were tasked by a coalition of agricultural stakeholders to analyse and predict the effect of CO2 on climate change from emissions from the agri-food sector.  We have been provided with emission data, as well as population data, compiled by the Food and Agriculture Organisation and the Intergovernmental Panel on Climate Change.  This data spans the period 1990 to 2020 and covers nearly all areas across the world, providing emission data from 23 sources.
 
-By the end of this project, you will have a thorough understanding of the impact of agricultural activities on CO2 emissions and climate change. Your findings and recommendations will contribute to the ongoing efforts to promote sustainability within the agri-food sector, providing valuable insights for the stakeholders involved in this initiative.
+Climate change represented by shifts in temperature can have catastrophic impacts on our environment and future existence.  Natural disasters, as can be seen in just the last few months appear to be on the increase.  Certain crops require particular environments to thrive, and if these are threatened our food supply could be threatened.
+
+Our aim through this project is to understand trends and through regression analysis identify the emission sources that are most likely leading to changes in the Average Temperature.
 
 ## 2. Dataset <a class="anchor" id="dataset"></a>
-Emissions from the agri-food sector play a crucial role in climate change, as they represent a significant share of global annual emissions. The dataset highlights the substantial contribution of the various sources of emissions. Therefore, it is essential to understand and address the environmental impact of the agri-food industry to mitigate climate change and promote sustainable practices within this sector.
+The dataset consists of the features below for years from 1990 to 2020, and for 236 areas around the world.
 
-**Dataset Features:**
+**Dataset Features description:**
 - Savanna fires: Emissions from fires in savanna ecosystems.
 - Forest fires: Emissions from fires in forested areas.
 - Crop Residues: Emissions from burning or decomposing leftover plant material after crop harvesting.
@@ -62,8 +59,10 @@ Forestland is the only feature that exhibits negative emissions due to its role 
 ## 3. Packages <a class="anchor" id="packages"></a>
 
 To carry out all the objectives for this repo, the following necessary dependencies were loaded:
-+ `Pandas 2.2.2` and `Numpy 1.26`
-+ `Matplotlib 3.8.4`
++ `Pandas version 2.2.2`
++ `Numpy version 1.26.4`
++ `Matplotlib version 3.8.4`
++ `Scikit-learn version: 1.4.2`
  
 
 ## 4. Environment <a class="anchor" id="environment"></a>
@@ -92,9 +91,8 @@ pip install -r requirements.txt
 
 | Name                                                                                        |  Email              
 |---------------------------------------------------------------------------------------------|--------------------             
-| [Jana Liebenberg-Fouche](https://github.com/Jana-Liebenberg)                                | jliebenberg-fouche@sandtech.com
-| [Edmund Dotsey](https://github.com/Edotsey)                                                 | edotsey@sandtech.com
-| [Farayi Myambo](https://github.com/Farayi-Explore)                                          | fmyambo@sandtech.com
+| [David Harrison](https://github.com/DavidFHarrison)                                | dharrison@fnb.co.za
+
 
 
 

@@ -93,10 +93,3 @@ pip install -r requirements.txt
 |---------------------------------------------------------------------------------------------|--------------------             
 | [David Harrison](https://github.com/DavidFHarrison)                                | dharrison@fnb.co.za
 
-
-
-
-#### Additional Resources to create a README file:
-- [Make a README](https://www.makeareadme.com/)
-- [GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-- [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
